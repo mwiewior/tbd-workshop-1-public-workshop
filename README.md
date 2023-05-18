@@ -180,7 +180,7 @@ In order to fetch recent changes to the upstream repository, pls run the followi
 ```bash
 git checkout master
 git remote add upstream  git@github.com:bdg-tbd/tbd-workshop-1-public.git
-git pull upstream master
+git pull --rebase upstream master
 ```
 There will be some conflicts but no worries... In order to fix them - just copy the content of the files from the
 upstream repo. Then commit your changes and create another pull request. 
